@@ -1,0 +1,178 @@
+
+:root{
+	--color-negro:#222;
+	--menu-hover:#b68834;
+	--color-cafe:#b68834;
+	--color-gris:#777;
+	--fondo-header:#222;
+	--fondo-footer:#282932;
+	
+}
+body{
+
+	font-size: 14px;
+}
+header{
+	position: relative;
+	background-color: var(--fondo-header);
+	width: 100%;
+	top:0;
+	border-bottom: 1px dashed rgba(255, 255, 255, 0.15);
+	
+}
+
+
+#hero{ 
+	background-image: url("../img/header-bg.jpg");
+	background-position: top center;
+	background-size: cover;
+	padding: 20% 0;
+	box-shadow: 0px 4px 4px 0px #616161;
+	box-shadow: 0px; 
+
+}
+
+#hero h1{ 
+	color: #fff; 
+	font-size: 70px;
+	
+}
+
+#hero .btn-primary{ 
+	background-color: #fff;
+	color: var(--color-negro); 
+	border-color: var(--color-negro);
+	border-radius: 50px;
+	padding: 10px 40px; 	
+}
+
+#about{
+	padding: 40px;
+	 text-align: center;
+	
+}
+
+#about .mensaje{
+	color: #b68834;
+	padding: 0px;
+}
+
+#about h2{ 
+font-weight: bold; 
+}
+
+#informacion-about{
+	padding: 35px;
+	text-align: left;
+}
+
+#menu{ 
+	
+	padding: 90px; 
+	text-align: center; 
+	background-image: url("../img/menu-bg.jpg")
+	
+}
+
+#menu p{
+	margin-bottom: 50px; 
+}
+
+
+.img-banner{
+	background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url("../img/video-bg.jpg");
+	border-radius: 5px;
+}
+
+.img-banner i{ 
+color: var(--color-cafe);
+	text-align: center;
+	font-size: 80px;
+	margin-top: 110px;
+}
+
+#kind {
+	text-align: center; 
+	
+}
+
+#kind h2{ 
+padding-top: 100px;
+}
+
+.img-fila-uno {
+	padding: 10px;
+}
+
+.img-fila-dos{
+	padding-left: 0px;
+	padding-top: 20px;
+	
+	
+}
+#personas-cafe{
+	text-align: right;
+}
+
+#blog{
+	padding: 100px;
+	background-color: #B1B0B0;
+	
+}
+
+#blog h2, p {
+	text-align: center;
+}
+
+.img-borde{
+	border-radius: 8px;
+}
+
+.imagen-blog .btn-secondary {
+	background-color: #B1B0B0;
+	border-color: var(--color-gris);
+	color: var(--color-negro);
+	border-radius: 8px;
+	margin-top: 10px;
+}
+
+.imagen-blog h5{
+	padding: 10px;
+	
+}
+
+.imagen-blog p ,h5 {
+	text-align: left; 
+}
+
+
+
+
+
+
+
+
+
+
+
+
+footer{
+	background-color: var(--fondo-footer);
+	background-image: url("../img/footer-bg.jpg");
+	background-size: cover;
+	background-position: center;
+	padding-top: 40px;
+	color: rgba(255, 255, 255, 0.55);
+	text-align: center;
+	font-size: 13px;
+	font-weight: 600;
+}
+footer p span{
+	color: var(--color-cafe);
+}
+footer #copy{
+	padding: 20px 0;
+	margin-top: 5%;
+	color: #fff;
+	border-top: 1px dashed rgba(255, 255, 255, 0.15);
+}
